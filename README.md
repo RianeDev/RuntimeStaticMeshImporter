@@ -17,3 +17,5 @@ See the example image for blueprint example.
 If you are having issues with packaging your build/the system complaining about the assimp dll being missing, look in your packaged project for a 'Plugins/RuntimeStaticMeshImporter' folder and follow it until you find the assimp-vc140-mt.dll. 
 Copy this and paste it in Project/Binaries/Win64. 
 
+
+![BlueprintExample](https://github.com/RianeDev/RuntimeStaticMeshImporter/assets/42573189/e13f4074-e011-4267-8503-27ac17b1333a)
