@@ -19,3 +19,8 @@ Copy this and paste it in Project/Binaries/Win64.
 
 
 ![BlueprintExample](https://github.com/RianeDev/RuntimeStaticMeshImporter/assets/42573189/e13f4074-e011-4267-8503-27ac17b1333a)
+
+
+Example using a mini STL converted to FBX in Blender:
+
+![1](https://github.com/RianeDev/RuntimeStaticMeshImporter/assets/42573189/b8c54f76-87b0-4e41-b4ec-51b18566d4fd)
