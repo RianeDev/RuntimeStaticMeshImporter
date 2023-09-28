@@ -17,6 +17,9 @@ See the example image for blueprint example.
 If you are having issues with packaging your build/the system complaining about the assimp dll being missing, look in your packaged project for a 'Plugins/RuntimeStaticMeshImporter' folder and follow it until you find the assimp-vc140-mt.dll. 
 Copy this and paste it in Project/Binaries/Win64. 
 
+The system works best with FBX files that have a single, solid mesh. If something looks weird when importing, it may be that there are too many meshes within the FBX, or your normals might be off. Make sure to check them.
+Replication works fine for lower-poly objects, but with high-poly objects there is a hardcap on array limits. This could result in a client being kicked from the server if the array gets too big. Am working on this.
+
 
 ![BlueprintExample](https://github.com/RianeDev/RuntimeStaticMeshImporter/assets/42573189/e13f4074-e011-4267-8503-27ac17b1333a)
 
